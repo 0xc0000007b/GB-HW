@@ -135,7 +135,8 @@ namespace Seminar_1
             {
                 Console.BackgroundColor = ConsoleColor.Red;
                 Console.ForegroundColor = ConsoleColor.Black;
-                Console.WriteLine("YOU NUMBER IS REALLY SHORTEN!! " + "\r\n" + "INSERT THIRSTY DIGIT NUMBER BELLOW");
+                Console.WriteLine("YOU NUMBER IS REALLY SHORTEN!! ");
+                
             }
             else
             {
