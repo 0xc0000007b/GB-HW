@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace Seminar_1
 {
@@ -20,7 +21,29 @@ namespace Seminar_1
             CheckTheWeekDay();
             GetSecondDigitFromNumber();
             FindEndedNumber();
+
+
+            /// Third seminar
             
+            GetQubeTable();
+            isPalindrome();
+            Console.ForegroundColor = ConsoleColor.Black;
+            Console.WriteLine("input a point");
+            int xa = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("input a point");
+            int xb = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("input a point");
+            int ya = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("input a point");
+            int yb = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("input a point");
+            int za = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("input a point");
+            int zb = Int32.Parse(Console.ReadLine());
+            Get3DPoint(xa,xb,ya,yb,xa,zb);
+
+
+            Console.ReadLine();
 
 
         }
@@ -93,16 +116,14 @@ namespace Seminar_1
             Console.WriteLine("insert week day nuber" +
                               ": ");
             int day = Int32.Parse(Console.ReadLine());
-            if ((day == 7) && (day >= 6))
+            if ((day == 7) || (day == 6))
             {
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("Yep, that day is a weekend. REST!!");
-                
-            }else if (day > 7)
+
+            } else if ( day > 7)
             {
-                Console.ForegroundColor = ConsoleColor.Black;
-                Console.BackgroundColor = ConsoleColor.Red;
-                Console.WriteLine("You ARE SO DUMB!! THAT DAY DONT EXISTS IN THE WEEK");
+                Console.WriteLine("that day has not exist in he week");
             }
             else
             {
@@ -179,7 +200,50 @@ namespace Seminar_1
                 
             }
         }
+        //Task 23
+        static void GetQubeTable()
+        {
+            Console.ForegroundColor = ConsoleColor.Black;
+            Console.BackgroundColor = ConsoleColor.White;
+            Console.Write("input your number: ");
+            int g = Int32.Parse(Console.ReadLine());
+            for (int i = 1; i <= g; i++)
+            {
+
+                Console.WriteLine($"qube is {i * i * i}");
+            }
+        }
+        //Task 19
+        static void isPalindrome()
+        {
+            int num, res, temp, rem = 0;
+
+            Console.BackgroundColor = ConsoleColor.White;
+            Console.ForegroundColor = ConsoleColor.Black;
+            Console.WriteLine("input number: ");
+            num = Int32.Parse(Console.ReadLine());
+            temp = num;
+            while(num > 0)
+            {
+                res = num % 10;
+                rem = (rem * 10) + res;
+                num = num / 10;
+            }
+            if (temp == rem && temp >= 10000 && temp <= 99999) Console.WriteLine($"Number {temp} is Palindrome");
+            else Console.WriteLine($"{temp} not a Palindrome");
+        }
+
+
+        static void Get3DPoint(int xa,int xb,int ya,int yb,int za,int zb )
+        {
+           
+             double res = Math.Sqrt((((xb - xa) * (xb - xa)) + ((yb - ya) * (yb - ya)) + ((zb - za) * (zb - za))));
+            Console.WriteLine($"distantion between points a,b, c, d, e and f equals {res}");
+        }
+
         
-       
+
+
+
     }
 }
