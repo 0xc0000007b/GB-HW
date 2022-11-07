@@ -36,7 +36,7 @@ namespace Seminar_1
                                     out var yb, 
                                     out var zb);
             s_3.Get3DPoint(xa,xb,ya,yb,xa,zb);
-            Console.ReadLine();
+            
             
             //Sem 4
             Console.ResetColor();
