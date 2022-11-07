@@ -28,7 +28,7 @@ namespace Seminar_1
             
             
             /// Third seminar
-            
+                Console.ResetColor();
             s_3.GetQubeTable();
             s_3.isPalindrome();
             var xa = GetNumbers(out var xb, 
@@ -39,13 +39,16 @@ namespace Seminar_1
             Console.ReadLine();
             
             //Sem 4
-            Console.Write("input the length of array bellow: ");
+            Console.ResetColor();
+            Console.WriteLine("input the length of array bellow: ");
             int n = Int32.Parse(Console.ReadLine());
             s_4.FillRandomNunbers(n);
             Console.WriteLine("input the number bellow: ");
             int v = Int32.Parse(Console.ReadLine());
             s_4.FindSun(v);
+            Console.WriteLine("input firs num: ");
             int x = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("input second num: ");
             int y = Int32.Parse(Console.ReadLine());
             s_4.FindDegree(x, y);
 

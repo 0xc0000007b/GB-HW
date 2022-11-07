@@ -14,7 +14,7 @@ namespace Seminar_1
                 for(int j = 0; j < digits.Length; j++) 
                     Console.Write($"{digits[i]}, ");
             }
-            Console.Write("\b"+"]");
+            Console.WriteLine("\b"+"]");
 
             return digits;
         }
@@ -40,6 +40,7 @@ namespace Seminar_1
                 res *= x;
                 
             }
+            
             Console.WriteLine("your expanation is : " + res);
         }
     }
