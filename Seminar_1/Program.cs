@@ -13,8 +13,6 @@ namespace Seminar_1
         private  static Sem_5 s_5 = new Sem_5();
         public static void Main(string[] args)
         {
-
-
              ///first seminar
              s_1.findMax(); // максимальное
              s_1.findBiggerInt(); // большое или маленькое

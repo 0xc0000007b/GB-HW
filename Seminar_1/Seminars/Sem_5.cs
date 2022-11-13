@@ -37,21 +37,21 @@ namespace Seminar_1
         public void FindDifferenceBetweenArrayElements()
         {
             Random rnd = new Random();
-            int[] d = new int[30];
-            int max=0, min=100;
-            for (int i = 0; i<d.Length; i++ )  d[i] = rnd.Next(100);
-            for (int i = 0; i < d.Length; i++)
+            int[] arr = new int[20];
+            int min = 100, max = 0;
+            for (int i = 0; i < arr.Length; i++)
+                arr[i] = rnd.Next(100);
+            for (int i = 0; i < arr.Length; i++)
             {
-                if (d[i] > max) max = d[i];
-                if (d[i] < min) min = d[i];
+                if (arr[i] > max) max = arr[i];
+                if (arr[i] < min) min = arr[i];
+              
             }
-           
-            for (int i = 0; i < d.Length; i++) Console.Write(" "+d[i]);//выводим массив
+
+            for (int i = 0; i < arr.Length; i++)Console.Write(" " + arr[i]);
             Console.WriteLine();
-            Console.WriteLine("max:  " + max);
-            Console.WriteLine("min  " +min);
-            Console.WriteLine("Разница максимального и минимального:  "+(max - min));
-            Console.ReadKey();
+            int difference = max - min;
+            Console.WriteLine($"difference between {max} and {min} indexes equals: {difference}  ");
         }
     }
 }
