@@ -11,3 +11,9 @@ C:/Users/NoHack/RiderProjects/Seminar_1/Seminar_1/obj/Debug/Seminar_1.pdb
 /home/nohack/Desktop/Sharp/GB/GB-HW/Seminar_1/obj/Debug/Seminar_1.csproj.CoreCompileInputs.cache
 /home/nohack/Desktop/Sharp/GB/GB-HW/Seminar_1/obj/Debug/Seminar_1.exe
 /home/nohack/Desktop/Sharp/GB/GB-HW/Seminar_1/obj/Debug/Seminar_1.pdb
+/home/nohack/Desktop/Sharp/GB-HW/Seminar_1/bin/Debug/Seminar_1.exe
+/home/nohack/Desktop/Sharp/GB-HW/Seminar_1/bin/Debug/Seminar_1.pdb
+/home/nohack/Desktop/Sharp/GB-HW/Seminar_1/obj/Debug/Seminar_1.csproj.AssemblyReference.cache
+/home/nohack/Desktop/Sharp/GB-HW/Seminar_1/obj/Debug/Seminar_1.csproj.CoreCompileInputs.cache
+/home/nohack/Desktop/Sharp/GB-HW/Seminar_1/obj/Debug/Seminar_1.exe
+/home/nohack/Desktop/Sharp/GB-HW/Seminar_1/obj/Debug/Seminar_1.pdb
