@@ -41,6 +41,7 @@
     <ItemGroup>
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="Seminars\Seminar_6.cs" />
         <Compile Include="Seminars\Sem_1.cs" />
         <Compile Include="Seminars\Sem_2.cs" />
         <Compile Include="Seminars\Sem_3.cs" />

@@ -11,6 +11,7 @@ namespace Seminar_1
         private static Sem_3 s_3 = new Sem_3();
         private static Simenar_4 s_4 = new Simenar_4();
         private  static Sem_5 s_5 = new Sem_5();
+        private static Seminar_6 s_6 = new Seminar_6();
         public static void Main(string[] args)
         {
              ///first seminar
@@ -56,6 +57,19 @@ namespace Seminar_1
             int[] g = new int[5];
             s_5.FindSumOfOddNumbersInArrayElements(g);
             s_5.FindDifferenceBetweenArrayElements();
+            
+            //sem_6
+            s_6.PositiveCount();
+            Console.Write("Введите k1: ");
+            double k1 = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Введите b1: ");
+            double b1 = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Введите k2: ");
+            double k2 = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Введите b2: ");
+            double b2 = Convert.ToDouble(Console.ReadLine());
+
+            s_6.FidCenter(k1 ,b1, k2, b2);
         }
 
         private static int GetNumbers(out int xb, out int ya, out int yb, out int zb)
