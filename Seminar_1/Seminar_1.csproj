@@ -49,6 +49,7 @@
         <Compile Include="Seminars\Sem_7.cs" />
         <Compile Include="Seminars\sem_8.cs" />
         <Compile Include="Seminars\Simenar_4.cs" />
+        <Compile Include="Utils\Menu.cs" />
     </ItemGroup>
     <ItemGroup>
       <Content Include=".gitignore" />
