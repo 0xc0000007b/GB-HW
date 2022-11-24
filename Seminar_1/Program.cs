@@ -14,24 +14,42 @@ namespace Seminar_1
         private static Seminar_6 s_6 = new Seminar_6();
         private static Sem_7 s_7 = new Sem_7();
         private static sem_8 s_8 = new sem_8();
+        private static Sem_9 s_9 = new Sem_9();
         public static void Main(string[] args)
         {
-            //first seminar
-            SeminarOneMethodsColling();
-            //second semina
-            SeminarTwoMethodsColling();
-            // Third seminar
-            SeminarThreeMethodsColling();
-            //Sem 4
-            SeminarFourMethodsColling();
-            //sem 5;
-            SeminarFiveMethodsColling();
-            //sem_6
-            SeminarSixMethodsColling();
-            // Semimar 7
-            SeminarSevenMethodsColling();
-            //sem_8
-            SeminarEightMethodsColling();
+            // //first seminar
+            // SeminarOneMethodsColling();
+            // //second semina
+            // SeminarTwoMethodsColling();
+            // // Third seminar
+            // SeminarThreeMethodsColling();
+            // //Sem 4
+            // SeminarFourMethodsColling();
+            // //sem 5;
+            // SeminarFiveMethodsColling();
+            // //sem_6
+            // SeminarSixMethodsColling();
+            // // Semimar 7
+            // SeminarSevenMethodsColling();
+            // //sem_8
+            // SeminarEightMethodsColling();
+            // sem_9
+            SeminarNineMethods();
+        }
+
+        private static void SeminarNineMethods()
+        {
+            uint n = UInt32.Parse(Console.ReadLine());
+            uint m = UInt32.Parse(Console.ReadLine());
+            Console.WriteLine($" result for {n} and {m} equals {s_9.Ackerman(n, m)}");
+            Console.WriteLine("input first num");
+            int num = Int32.Parse(Console.ReadLine());
+
+            s_9.PrintNum(num);
+            Console.WriteLine();
+            int b = Int32.Parse(Console.ReadLine());
+            int x = Int32.Parse(Console.ReadLine());
+            s_9.PrintAndSumNum(b, x);
         }
 
         private static void SeminarOneMethodsColling()

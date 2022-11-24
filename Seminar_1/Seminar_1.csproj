@@ -48,6 +48,7 @@
         <Compile Include="Seminars\Sem_5.cs" />
         <Compile Include="Seminars\Sem_7.cs" />
         <Compile Include="Seminars\sem_8.cs" />
+        <Compile Include="Seminars\Sem_9.cs" />
         <Compile Include="Seminars\Simenar_4.cs" />
         <Compile Include="Utils\Menu.cs" />
     </ItemGroup>

@@ -160,9 +160,7 @@ namespace Seminar_1
             {
                for (int q = 0; q < matrix.GetLength(1); q++)
                {
-                   Console.Write(matrix[i,q] + " ");
-                   
-                  
+                   Console.Write(matrix[i, q] + " ");
                }
                Console.WriteLine();
             }
