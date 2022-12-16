@@ -1,5 +1,6 @@
 import math
 from random import randint
+from find_and_mult_indexes import *
 
 
 def check_day():
@@ -24,6 +25,7 @@ def print_scond_digit():
 
     else:
         print('not found')
+
 def InputNumbers(num):
     test = ["X", "Y", "Z"]
     arr = []
@@ -68,6 +70,7 @@ def check_quarter(x, y):
         print('4 quarter')
     elif x == 0 and y == 0:
         print('start of coordinates system')
+
 def check_dots(x, y):
     if x > 0 and y > 0:
         print(f'1 quarter. x: from {x} to +unlimited and y: from {y} to +unlimited')
@@ -81,16 +84,19 @@ def check_dots(x, y):
         print('start of coordinates system')
 
 
-if __name__ == '__main__':
+def checker():
     check_day()
-    print()
     check_pred()
-    print()
     calc_distantion()
-    print()
     check_quarter(-5, 5)
-    print()
     check_dots(-5, 3)
+    find_sum()
+    find_frac()
+    find_and_mult()
+    find_str()
 
+
+if __name__ == '__main__':
+    checker()
 
 
