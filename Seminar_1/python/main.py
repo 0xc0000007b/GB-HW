@@ -1,7 +1,7 @@
 import math
-from random import randint
-from find_and_mult_indexes import *
 
+from seminars.find_and_mult_indexes import *
+from seminars.seminar_3 import *
 
 def check_day():
     print('input day: ')
@@ -85,18 +85,28 @@ def check_dots(x, y):
 
 
 def checker():
-    check_day()
-    check_pred()
-    calc_distantion()
-    check_quarter(-5, 5)
-    check_dots(-5, 3)
-    find_sum()
-    find_frac()
-    find_and_mult()
-    find_str()
+    # check_day()
+    # check_pred()
+    # calc_distantion()
+    # check_quarter(-5, 5)
+    # check_dots(-5, 3)
+    # find_sum()
+    # find_frac()
+    # find_and_mult()
+    # find_str()
+    semiar_3_calls()
 
+def semiar_3_calls():
+    fibonacci()
+    print()
+    odd_values_to_list_appender()
+    to_bin()
+    print()
+    calc_difference()
+    calc_multiply()
 
 if __name__ == '__main__':
     checker()
+
 
 

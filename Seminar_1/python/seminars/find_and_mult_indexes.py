@@ -10,9 +10,8 @@ def find_and_mult():
    for i in range(len(stronger_list)):
        print(stronger_list[i], end = ' ')
        list_2.append(stronger_list[ind] * stronger_list[ind1])
-   print()
    print(f"product of indexes equals: ", *list_2, end = ' ')
-   print()
+   
 
 def shuffle_list():
     num = int(input())
@@ -23,7 +22,6 @@ def shuffle_list():
     print()
     print(*test_list, end = ' ')
 
-from find_and_mult_indexes import *
 
 def find_str():
     one = int(input())
