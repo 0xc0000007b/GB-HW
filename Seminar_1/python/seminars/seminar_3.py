@@ -30,7 +30,7 @@ def odd_values_to_list_appender():
 
 def to_bin():
     system_index = int(input(Fore.GREEN +'input num(from 2 to 9): '))
-    num = int(input(Fore.BLUE +'input num: '))
+    num = int(input(Fore.BLUE + 'input num: '))
 
     new_num = ''
     while num > 0:

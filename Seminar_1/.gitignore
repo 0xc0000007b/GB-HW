@@ -2,3 +2,5 @@
 .vs
 obj
 bin
+venv
+__pycache__
